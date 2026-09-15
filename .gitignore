@@ -17,6 +17,8 @@ sample_data/**/*.zip
 # Original/full datasets kept outside the tracked workshop sample data.
 main-data/
 data-workshop2025/
+# The real workshop files, including the gold labels. Never commit these.
+FinalData_AircheckWorkshopSep2026/
 
 # Generated workshop outputs are local by default.
 results/*
