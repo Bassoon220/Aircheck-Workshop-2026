@@ -3,8 +3,8 @@
 Ten mock submissions in the format Section 9 of the hands-on notebook produces:
 the top 200 compounds, two columns, `SMILES` and `Prediction_Score`, ranked best first.
 
-They were built by training on `data/sample-train.parquet` and scoring
-`data/sample-test.parquet`, which holds 9 actives among 5000 compounds (0.18%).
+They were built by training on `sample_data/sample-train.parquet` and scoring
+`sample_data/sample-test.parquet`, which holds 9 actives among 5000 compounds (0.18%).
 
 Each team uses a different model and fingerprint, so the files span a range of
 quality. `team10` is a random ranking with no model at all - it is there so the

@@ -8,7 +8,7 @@ leaderboard.
 | Folder | What is in it |
 |---|---|
 | `notebooks/` | the workshop notebooks — two introductions, two hands-on, and the organisers' leaderboard |
-| `data/` | the sample datasets the notebooks read |
+| `sample_data/` | the sample datasets the notebooks read |
 | `src/` | helper modules the notebooks import: `metrics`, `plots`, `features` |
 | `team-results/` | team submissions, plus ten samples for testing the scorer |
 | `results/` | generated output — trained models and leaderboard files. Created when a notebook runs; contents are gitignored |
