@@ -6,7 +6,6 @@ matplotlib
 seaborn
 scipy
 altair
-pyarrow
 pympler
 scikit-learn
 joblib
@@ -15,9 +14,4 @@ rdkit
 lightgbm
 umap-learn
 openpyxl
-umap-learn
 hdbscan
-
-
-
-
