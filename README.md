@@ -7,7 +7,9 @@ leaderboard.
 
 | Folder | What is in it |
 |---|---|
-| `notebooks/` | the workshop notebooks — two introductions, two hands-on, and the organisers' leaderboard |
+| `Introduction-Notebooks/` | the two introductions and the data-exploration hands-on |
+| `Hands-On-MachineLearning/` | the machine-learning hands-on and the organisers' leaderboard |
+| `Hands-On-DataProcessing/` | the DEL label and feature notebooks, with their `aircheck` helper |
 | `sample_data/` | the sample datasets the notebooks read |
 | `src/` | helper modules the notebooks import: `metrics`, `plots`, `features` |
 | `team-results/` | team submissions, plus ten samples for testing the scorer |
@@ -46,10 +48,10 @@ needed — the repository is public.
 
 | Notebook | Open |
 |---|---|
-| Introduction to Python | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/notebooks/Introduction-Python-AircheckWorkshop2026.ipynb) |
-| Introduction to Machine Learning | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/notebooks/Introduction-MachineLearning-AircheckWorkshop2026.ipynb) |
-| Hands-On: Data Exploration | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/notebooks/HandsOn-DataExploration-AircheckWorkshop2026.ipynb) |
-| Hands-On: Machine Learning | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/notebooks/HandsOn-MachineLearning-AircheckWorkshop2026.ipynb) |
+| Introduction to Python | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Introduction-Notebooks/Introduction-Python-AircheckWorkshop2026.ipynb) |
+| Introduction to Machine Learning | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Introduction-Notebooks/Introduction-MachineLearning-AircheckWorkshop2026.ipynb) |
+| Hands-On: Data Exploration | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Introduction-Notebooks/HandsOn-DataExploration-AircheckWorkshop2026.ipynb) |
+| Hands-On: Machine Learning | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Hands-On-MachineLearning/HandsOn-MachineLearning-AircheckWorkshop2026.ipynb) |
 
 `Evaluation-Leaderboard` is for organisers — it reads the gold labels, so it is not listed
 above.

@@ -28,14 +28,19 @@ results/*
 .env
 .env.*
 !.env.example
-# Artifacts the notebooks write when they are run.
-notebooks/*.joblib
-notebooks/*.pkl
-notebooks/*.mol
-notebooks/*.csv
-notebooks/*.xlsx
-notebooks/*.png
-notebooks/*.metadata.json
+# Artifacts the notebooks write when they are run. Matched anywhere rather than under one
+# folder name, so moving a notebook does not quietly start committing its outputs.
+*.joblib
+*.pkl
+*.mol
+*.xlsx
+*.metadata.json
+Introduction-Notebooks/*.csv
+Introduction-Notebooks/*.png
+Hands-On-MachineLearning/*.csv
+Hands-On-MachineLearning/*.png
+Hands-On-DataProcessing/*.csv
+Hands-On-DataProcessing/*.png
 
 # Activity answer key - kept local, not for participants.
 activity-solution.ipynb
