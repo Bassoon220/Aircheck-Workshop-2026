@@ -43,6 +43,8 @@ Hands-On-MachineLearning/*.csv
 Hands-On-MachineLearning/*.png
 Hands-On-DataProcessing/*.csv
 Hands-On-DataProcessing/*.png
+Evaluation/*.csv
+Evaluation/*.png
 
 # Activity answer key - kept local, not for participants.
 activity-solution.ipynb

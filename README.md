@@ -8,7 +8,8 @@ leaderboard.
 | Folder | What is in it |
 |---|---|
 | `Introduction-Notebooks/` | the two introductions and the data-exploration hands-on |
-| `Hands-On-MachineLearning/` | the machine-learning hands-on and the organisers' leaderboard |
+| `Hands-On-MachineLearning/` | the machine-learning hands-on, and the hackathon notebook |
+| `Evaluation/` | the organisers' leaderboard |
 | `Hands-On-DataProcessing/` | the DEL label and feature notebooks, with their `aircheck` helper |
 | `sample_data/` | the sample datasets the notebooks read |
 | `src/` | helper modules the notebooks import: `metrics`, `plots`, `features` |
@@ -53,7 +54,7 @@ needed — the repository is public.
 | Hands-On: Data Exploration | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Introduction-Notebooks/HandsOn-DataExploration-AircheckWorkshop2026.ipynb) |
 | Hands-On: Machine Learning | [Open in Colab](https://colab.research.google.com/github/ShagReza/Aircheck-Workshop-2026/blob/main/Hands-On-MachineLearning/HandsOn-MachineLearning-AircheckWorkshop2026.ipynb) |
 
-`Evaluation-Leaderboard` is for organisers — it reads the gold labels, so it is not listed
+`Evaluation/` is for organisers: it reads the gold labels, so it is not listed
 above.
 
 **Notes for participants**
